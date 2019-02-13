@@ -1,4 +1,4 @@
-
+  >
 # Pointers
 ## This section contains notes on pointers.
 ### Pointer basics
@@ -28,22 +28,22 @@
 we declare a normal int variable something like this:-
 
 int main()
-{
-  int num;
-}
+<br>  {
+<br>    int num;
+<br>  }
 
 But for declaring a pointer we have to use an asterisk symbol, it is also called an indirection operator something like this:
 int main()
- {
-   int *num;
- }
+<br>  {
+<br>    int *num;
+<br>  }
  
  or we can also write it like this:
   int main()
-   { 
-     int* num;
-   }
-  >Notice the position of asterisk, it doesn't matter where you put the asterisk symbol you can put it just after the datatype or after giving the space as both of the syntax are valid.
+<br>   { 
+<br>     int* num;
+<br>   }
+>Notice the position of asterisk, it doesn't matter where you put the asterisk symbol you can put it just after the datatype or after giving the space as both of the syntax are valid.
   
   
   
