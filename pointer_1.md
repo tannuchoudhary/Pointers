@@ -1,4 +1,4 @@
-  >
+![pointer](https://duckduckgo.com/?q=pointer+in+c&atb=v130-5_i&iax=images&ia=images&iai=http%3A%2F%2Fwww.improgrammer.net%2Fwp-content%2Fuploads%2F2014%2F07%2Fpointer-696x405.png)
 # Pointers
 ## This section contains notes on pointers.
 ### Pointer basics
