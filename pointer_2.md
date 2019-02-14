@@ -6,3 +6,10 @@
 * The name you give to the array variable is also the address of the array.
 >In simple words array is the same as an address in memory that defines the beginning of sequential  
 data itemms and dealing with an  array is  same as dealing with an addresses.
+<br>_Let us take an example_
+<br>`
+<br>#include<stdio.h>
+<br>int main(int argc, char **argv)
+<br>  {  
+<br>      char str1[] = "Hello";
+`
