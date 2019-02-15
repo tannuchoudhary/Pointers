@@ -48,7 +48,7 @@ output:
 6356746 6356746 Hello
 6356740 4206628 world
 ```
-Here you can notice that in case of array address and value is same and in case of pointer address and value is different.
+Here you can notice that in case of array, address and value is same and in case of pointer, address and value is different.
 
 ---
 
