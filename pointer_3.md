@@ -1,4 +1,4 @@
-*# Multiple indirection: 
+# Multiple indirection: 
 Pointer variable can not only point to the different data types but also can point to the other pointer variables,.When we use pointer to
 access data stored at an address, we call it dereferencing or indirection and accesing a data from a pointer pointing to another pointer is
 called multiple indirection.
@@ -12,7 +12,7 @@ then there could be another pointer variable:
 
 `int **ppi;`(ppi is a pointer variable pointing to pi, a pointer variable that is pointing to a data)
 
-**Let us understand by this an example**
+**Let us understand this by an example**
 
 ```c
 #include<stdio.h>
