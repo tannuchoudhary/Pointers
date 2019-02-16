@@ -53,5 +53,9 @@ int main(int argc, char **argv)
 
 ```
 
+![Pointers](https://github.com/tannuchoudhary/Pointers/blob/master/output2.PNG)
+
+
+
  
 
