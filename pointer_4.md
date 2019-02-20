@@ -39,7 +39,7 @@ You can also print your arguments which you have passed, just take a look at thi
 
 ```
 
-In command prompt write the name of your program and write your strings, here the name of my program is **command_line**, so we have to write like this
+In command prompt write the name of your program and write your strings, here the name of my program is **command_line**, and i am passing arguments as github, repository, pull_request, commit so we have to write like this
 
 `C:\Users\user\Desktop\tannu\Tannucommand_line github repository pull_request commit`
 
@@ -53,12 +53,14 @@ Your output will look something like this
 4  commit
 ```
 
+let us take another example
+
 
 # GENERIC POINTERS
 
 We know that to use pointers we have to assign a pointer with specific data type but what if we want tow rite code that can deal with any type of data.
 
-In this case we will use a generic pointers 
+In this case we will use generic pointers 
 
 
 
