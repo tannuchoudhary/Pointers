@@ -124,7 +124,11 @@ int main(int argc, char **argv)
 }
 
 ```
+So this is our output
+
 ![pointer_with_strings](https://github.com/tannuchoudhary/pointer_images/blob/master/strings.PNG)
+
+>I hope this will make your concepts more clear.
 
 
 
