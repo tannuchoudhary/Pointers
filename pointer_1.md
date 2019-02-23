@@ -25,23 +25,28 @@
 ### _Now coming to the declaration of pointer_
 >Now the question arises that how we will recognise a pointer variable or how we will differentiate between a pointer and a non pointer variable, for thatlet me tell you that the declaration of pointer variable is different from the declaration of normal variable or a non pointer variable.
 we declare a normal int variable something like this:-
-
+```c
 int main()
-<br>  {
-<br>    int num;
-<br>  }
+  {
+    int num;
+  }
+```
 
 But for declaring a pointer we have to use an asterisk symbol, it is also called an indirection operator something like this:
 int main()
-<br>  {
-<br>    int *num;
-<br>  }
+```c
+  {
+    int *num;
+  }
+ ```
  
  or we can also write it like this:
+ ```c
   int main()
-<br>   { 
-<br>     int* num;
-<br>   }
+   { 
+     int* num;
+   }
+   ```
 >Notice the position of asterisk, it doesn't matter where you put the asterisk symbol you can put it just after the datatype or after giving the space as both of the syntax are valid.
   
   
