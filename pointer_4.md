@@ -55,12 +55,40 @@ Your output will look something like this
 
 let us take another example
 
+```c
+#include<stdio.h>
+#include<stdlib.h>
+
+void main(int argc, char * argv[]) {
+   int i, sum = 0;
+
+   if (argc != 3) {
+      printf("You have forgot to type numbers.");
+      exit(1);
+   }
+
+   printf("The sum is : ");
+
+   for (i = 1; i < argc; i++)
+      sum = sum + atoi(argv[i]);    //atoi function is used to convert string into integers.
+
+   printf("%d", sum);
+
+}
+
+
+```
+
 
 # GENERIC POINTERS
 
-We know that to use pointers we have to assign a pointer with specific data type but what if we want tow rite code that can deal with any type of data.
+We know that to use pointers we have to assign a pointer with specific data type but what if we want to write code that can deal with any type of data.
 
 In this case we will use generic pointers 
+
+* Generic pointer works same as pointer.
+* Just write void while declaring the generic pointer.
+* Now you don't need to create pointers of different datatypes, you can use single pointer for different datatypes just by casting it into that particular data type.
 
 
 
