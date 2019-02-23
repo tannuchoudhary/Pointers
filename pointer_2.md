@@ -21,7 +21,7 @@ and our output will be something like this
 
 `Hello world H 2686740 2686740 2686740`
 
-so what is happening? in first part the whole string is getting printed i.e **hello world** and in second part the first character is getting printed i.e **H**, you can notice that the address of the whole string and address of the first element of a string is same as i had told u earlier that the address of the first element of an array is the address of an array.(an string is an array of characters)
+so what is happening? in first part the whole string is getting printed i.e **Hello world** and in second part the first character is getting printed i.e **H**, you can notice that the address of the whole string and address of the first element of a string is same as i had told u earlier that the address of the first element of an array is the address of an array.(an string is an array of characters)
 
 Now what is the scene with the last one, that is the value of an array and this is also the same as the address of an array.
 
