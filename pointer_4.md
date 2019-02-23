@@ -76,8 +76,14 @@ void main(int argc, char * argv[]) {
 
 }
 
-
 ```
+and your output will be something like this :
+
+![output](https://github.com/tannuchoudhary/pointer_images/blob/master/p1.PNG)
+
+here the name of my program is practice.c and arguments are 5 and 4.
+
+To know more about `atoi()` function click [here].(https://www.quora.com/What-is-an-atoi-function-in-C-programming)
 
 
 # GENERIC POINTERS
@@ -89,6 +95,32 @@ In this case we will use generic pointers
 * Generic pointer works same as pointer.
 * Just write void while declaring the generic pointer.
 * Now you don't need to create pointers of different datatypes, you can use single pointer for different datatypes just by casting it into that particular data type.
+
+```c
+#include<stdio.h>
+int main()
+{
+    void *ptr;
+    int i = 5;
+    char c = 'c';
+    ptr = &i;
+    
+    //The cast tells the compiler what the address type is
+    
+    printf("Item pointed by pointer is %d and address is %p.\n", *(int*)ptr, ptr);  //casting into type int.
+
+    ptr = &c;
+    printf("Now, item pointed by pointer is %c and address is %p.", *(char*)ptr, ptr);  //casting into char type
+
+    return 0;
+}
+```
+We can use a single generic pointer to point any kind of datatype.
+
+
+
+
+
 
 
 
