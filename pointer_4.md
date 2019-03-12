@@ -8,9 +8,8 @@
 We all know to run our programs through IDE, whatever IDE you use, just open the IDE, write your code and click on compile and run,
 it is so easy and also we can run our programs by opening the folder and just double clicking on the program but the thing is that we cannot pass arguments through main by these methods.
 
-But, by running your program through command line argument you can pass values through main
-
-if you don't know how to run a program through command line argument, you can visit my blog by clicking [here](technique7.wordpress.com/2018/09/22/how-to-compile-and-run-a-program-through-command-line-argument/).
+But, by running your program through command line argument you can pass values through mainif  you don't know how to run a program through command line argument, you can visit my blog by clicking 
+[Here](technique7.wordpress.com/2018/09/22/how-to-compile-and-run-a-program-through-command-line-argument/)
 
 When we pass arguments, the answer is while calling or definning a function, so we all know that main is also a function but, who calls main, the answer is operating system.yes, operating system calls main and we are definning main by writting our code.
 
@@ -83,7 +82,7 @@ and your output will be something like this :
 
 here the name of my program is practice.c and arguments are 5 and 4.
 
-To know more about `atoi()` function click [here].(https://www.quora.com/What-is-an-atoi-function-in-C-programming)
+To know more about `atoi()` function click [here](https://www.quora.com/What-is-an-atoi-function-in-C-programming)
 
 
 # GENERIC POINTERS
